@@ -7,7 +7,7 @@ class Solution {
         for (char c : arr) {
             sum += c - '0';
         }
-        if(x%sum==0){
+        if(x % sum == 0){
             answer = true;
         }
         else{
