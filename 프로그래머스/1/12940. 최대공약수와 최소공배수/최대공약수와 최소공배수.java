@@ -6,10 +6,9 @@ class Solution {
         int maxnum = Math.max(n,m);
         int minnum = Math.min(n,m);
         
-        for (int i = 1; i < maxnum; i++){
-            if(n % i == 0 & m % i == 0){
+        for (int i = 1; i <= minnum; i++){
+            if(n % i == 0 && m % i == 0){
                 gcd = i;
-    
             }
         }
         
